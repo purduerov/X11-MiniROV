@@ -1,0 +1,13 @@
+micro ROV questions:
+changes to thru hole?
+what replaces CAN on 4 pin
+ok to use bottom side
+what's the UART thing doing
+keep analog ins
+are all tssop 16 packages the same
+would demux need decoupling cap
+pwm 3 and 4 are mtr_2a_pwm and 2b
+can only 1 motor drive ic be used 
+still both pwms to 1 motor (current) or (switch) to A channels / B channels
+new board dimensions
+where will large currents be
