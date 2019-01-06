@@ -11,3 +11,5 @@ can only 1 motor drive ic be used
 still both pwms to 1 motor (current) or (switch) to A channels / B channels
 new board dimensions
 where will large currents be
+
+there's a 12V instead of +12V (12 to 5 converter)

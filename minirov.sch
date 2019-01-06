@@ -6426,6 +6426,13 @@ LED-</text>
 <wire x1="365.76" y1="337.82" x2="365.76" y2="342.9" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="12V"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="VIN"/>
+<wire x1="160.02" y1="279.4" x2="152.4" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="279.4" x2="152.4" y2="281.94" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="G$1" pin="12V"/>
+<label x="152.4" y="276.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MTR_1A" class="0">
 <segment>
@@ -6742,14 +6749,6 @@ LED-</text>
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="330.2" y1="226.06" x2="330.2" y2="231.14" width="0.1524" layer="91"/>
 <junction x="330.2" y="231.14"/>
-</segment>
-</net>
-<net name="12V" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="VIN"/>
-<wire x1="160.02" y1="279.4" x2="152.4" y2="279.4" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="279.4" x2="152.4" y2="281.94" width="0.1524" layer="91"/>
-<pinref part="SUPPLY2" gate="G$1" pin="12V"/>
 </segment>
 </net>
 <net name="+5V" class="0">
