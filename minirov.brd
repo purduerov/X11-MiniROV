@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1165,7 +1165,7 @@ Please make sure your boards conform to these design rules.
 <element name="J12" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01" package3d_urn="urn:adsk.eagle:package:38028/1" value="" x="2.032" y="17.018"/>
 <element name="J13" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01" package3d_urn="urn:adsk.eagle:package:38028/1" value="" x="-34.29" y="16.51"/>
 <element name="J14" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01" package3d_urn="urn:adsk.eagle:package:38028/1" value="" x="-30.226" y="16.51"/>
-<element name="J15" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="" x="2.794" y="20.574"/>
+<element name="J15" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="" x="5.334" y="20.447" rot="R180"/>
 <element name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="" x="-6.35" y="22.098"/>
 <element name="Q1" library="minirov" package="SOT23-3" value="DMN6140L-13DICT-ND" x="9.398" y="9.398" rot="R180"/>
 <element name="Q2" library="minirov" package="SOT23-3" value="DMN6140L-13DICT-ND" x="13.716" y="9.398" rot="R180"/>
@@ -1206,7 +1206,7 @@ Please make sure your boards conform to these design rules.
 <element name="C19" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="100nF" x="4.064" y="12.192">
 <attribute name="PROD_ID" value="CAP-00867" x="4.064" y="12.192" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$9" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-ZERO" x="1.016" y="34.544"/>
+<element name="U$9" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-ZERO" x="1.524" y="34.29"/>
 <element name="U$2" library="74CBTLV3257PW" package="74CBTLV3257PW" value="74CBTLV3257PW" x="23.114" y="17.78"/>
 <element name="J21" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01" package3d_urn="urn:adsk.eagle:package:38028/1" value="" x="5.08" y="17.018"/>
 </elements>
@@ -1262,15 +1262,7 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$9" pad="30"/>
 <contactref element="U$9" pad="34"/>
 <contactref element="U$2" pad="GND"/>
-<wire x1="50.026" y1="62.314" x2="57.646" y2="59.774" width="0" layer="19" extent="1-1"/>
-<wire x1="44.946" y1="62.314" x2="50.026" y2="62.314" width="0" layer="19" extent="1-1"/>
-<wire x1="39.866" y1="59.774" x2="44.946" y2="62.314" width="0" layer="19" extent="1-1"/>
-<wire x1="32.246" y1="62.314" x2="39.866" y2="59.774" width="0" layer="19" extent="1-1"/>
-<wire x1="24.626" y1="62.314" x2="32.246" y2="62.314" width="0" layer="19" extent="1-1"/>
-<wire x1="19.546" y1="59.774" x2="24.626" y2="62.314" width="0" layer="19" extent="1-1"/>
-<wire x1="14.466" y1="62.314" x2="19.546" y2="59.774" width="0" layer="19" extent="1-1"/>
-<wire x1="43.18" y1="20.828" x2="39.866" y2="59.774" width="0" layer="19" extent="1-1"/>
-<wire x1="-5.473" y1="22.098" x2="2.032" y2="17.018" width="0" layer="19" extent="1-1"/>
+<wire x1="2.032" y1="17.018" x2="-5.473" y2="22.098" width="0" layer="19" extent="1-1"/>
 <wire x1="-26.478" y1="22.68" x2="-5.473" y2="22.098" width="0" layer="19" extent="1-1"/>
 <wire x1="-31.278" y1="31.18" x2="-26.478" y2="22.68" width="0" layer="19" extent="1-1"/>
 <wire x1="-32.078" y1="31.18" x2="-31.278" y2="31.18" width="0" layer="19" extent="1-1"/>
@@ -1413,15 +1405,15 @@ Please make sure your boards conform to these design rules.
 <contactref element="J15" pad="2"/>
 <contactref element="U$8" pad="SDA"/>
 <contactref element="U$9" pad="3"/>
-<wire x1="5.334" y1="20.574" x2="11.926" y2="59.774" width="0" layer="19" extent="1-1"/>
-<wire x1="2.606" y1="10.723" x2="5.334" y2="20.574" width="0" layer="19" extent="1-1"/>
+<wire x1="2.794" y1="20.447" x2="12.434" y2="59.52" width="0" layer="19" extent="1-1"/>
+<wire x1="2.606" y1="10.723" x2="2.794" y2="20.447" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL">
 <contactref element="J15" pad="1"/>
 <contactref element="U$8" pad="SCL"/>
 <contactref element="U$9" pad="5"/>
-<wire x1="2.794" y1="20.574" x2="14.466" y2="59.774" width="0" layer="19" extent="1-1"/>
-<wire x1="2.606" y1="8.073" x2="2.794" y2="20.574" width="0" layer="19" extent="1-1"/>
+<wire x1="5.334" y1="20.447" x2="14.974" y2="59.52" width="0" layer="19" extent="1-1"/>
+<wire x1="2.606" y1="8.073" x2="5.334" y2="20.447" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USART_RX">
 <contactref element="U$1" pad="PA10"/>
@@ -1450,12 +1442,12 @@ Please make sure your boards conform to these design rules.
 <signal name="LED1_PWM">
 <contactref element="Q1" pad="1"/>
 <contactref element="U$9" pad="11"/>
-<wire x1="10.348" y1="10.398" x2="22.086" y2="59.774" width="0" layer="19" extent="1-1"/>
+<wire x1="10.348" y1="10.398" x2="22.594" y2="59.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED2_PWM">
 <contactref element="Q2" pad="1"/>
 <contactref element="U$9" pad="13"/>
-<wire x1="14.666" y1="10.398" x2="24.626" y2="59.774" width="0" layer="19" extent="1-1"/>
+<wire x1="14.666" y1="10.398" x2="25.134" y2="59.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="U$9" pad="19"/>
@@ -1529,9 +1521,9 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$9" pad="2"/>
 <contactref element="U$9" pad="4"/>
 <wire x1="62.23" y1="10.16" x2="50.8" y2="20.828" width="0" layer="19" extent="1-1"/>
-<wire x1="8.636" y1="17.018" x2="50.8" y2="20.828" width="0" layer="19" extent="1-1"/>
-<wire x1="9.386" y1="62.314" x2="8.636" y2="17.018" width="0" layer="19" extent="1-1"/>
-<wire x1="11.926" y1="62.314" x2="9.386" y2="62.314" width="0" layer="19" extent="1-1"/>
+<wire x1="12.434" y1="62.06" x2="50.8" y2="20.828" width="0" layer="19" extent="1-1"/>
+<wire x1="9.894" y1="62.06" x2="12.434" y2="62.06" width="0" layer="19" extent="1-1"/>
+<wire x1="8.636" y1="17.018" x2="9.894" y2="62.06" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$9" pad="8"/>
@@ -1542,22 +1534,22 @@ Please make sure your boards conform to these design rules.
 <signal name="MTR_AB_SEL">
 <contactref element="U$2" pad="S"/>
 <contactref element="U$9" pad="16"/>
-<wire x1="20.839" y1="14.78" x2="27.166" y2="62.314" width="0" layer="19" extent="1-1"/>
+<wire x1="20.839" y1="14.78" x2="27.674" y2="62.06" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MTR2_PWM">
 <contactref element="U$9" pad="12"/>
 <contactref element="U$2" pad="2A"/>
-<wire x1="24.739" y1="14.78" x2="22.086" y2="62.314" width="0" layer="19" extent="1-1"/>
+<wire x1="24.739" y1="14.78" x2="22.594" y2="62.06" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MTR1_PWM">
 <contactref element="U$9" pad="33"/>
 <contactref element="U$2" pad="1A"/>
-<wire x1="22.789" y1="14.78" x2="50.026" y2="59.774" width="0" layer="19" extent="1-1"/>
+<wire x1="22.789" y1="14.78" x2="50.534" y2="59.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MTR_NOE">
 <contactref element="U$9" pad="15"/>
 <contactref element="U$2" pad="NOE"/>
-<wire x1="21.489" y1="20.78" x2="27.166" y2="59.774" width="0" layer="19" extent="1-1"/>
+<wire x1="21.489" y1="20.78" x2="27.674" y2="59.52" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
