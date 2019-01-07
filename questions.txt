@@ -13,3 +13,5 @@ new board dimensions
 where will large currents be
 
 there's a 12V instead of +12V (12 to 5 converter)
+
+must add 5V or 3.3V to ADC
