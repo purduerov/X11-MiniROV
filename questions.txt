@@ -13,3 +13,5 @@ pwm 3 and 4 are mtr_2a_pwm and 2b
 there's a 12V instead of +12V (12 to 5 converter)
 
 must add 5V or 3.3V to ADC
+
+NOTE: no ground stitching yet. Will be done after board is reviewed
