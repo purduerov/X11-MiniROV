@@ -3665,8 +3665,6 @@ by exp-project-lbr.ulp</description>
 <part name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
 <part name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
 <part name="J12" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
-<part name="J13" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
-<part name="J14" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 <part name="J15" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="Q1" library="minirov" deviceset="DMN6140L-13" device="" value="DMN6140L-13DICT-ND"/>
 <part name="Q2" library="minirov" deviceset="DMN6140L-13" device="" value="DMN6140L-13DICT-ND"/>
@@ -3763,8 +3761,6 @@ LED-</text>
 <instance part="J8" gate="G$1" x="86.36" y="276.86"/>
 <instance part="J9" gate="G$1" x="86.36" y="269.24"/>
 <instance part="J12" gate="G$1" x="81.28" y="226.06"/>
-<instance part="J13" gate="G$1" x="81.28" y="215.9"/>
-<instance part="J14" gate="G$1" x="81.28" y="205.74"/>
 <instance part="J15" gate="G$1" x="119.38" y="231.14"/>
 <instance part="Q1" gate="G$1" x="309.88" y="317.5"/>
 <instance part="Q2" gate="G$1" x="363.22" y="317.5"/>
@@ -4181,20 +4177,6 @@ LED-</text>
 <wire x1="180.34" y1="314.96" x2="177.8" y2="314.96" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <label x="177.8" y="314.96" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
-<net name="ADC_IN1" class="0">
-<segment>
-<pinref part="J13" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="215.9" x2="96.52" y2="215.9" width="0.1524" layer="91"/>
-<label x="93.98" y="215.9" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ADC_IN2" class="0">
-<segment>
-<pinref part="J14" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="205.74" x2="96.52" y2="205.74" width="0.1524" layer="91"/>
-<label x="93.98" y="205.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
