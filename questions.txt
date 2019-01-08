@@ -1,17 +1,15 @@
 micro ROV questions:
-changes to thru hole?
-what replaces CAN on 4 pin
-ok to use bottom side
-what's the UART thing doing
-keep analog ins
+changes to thru holes? what purposes/locations should they be?
+-what replaces CAN on 4 pin? ethernet
+-ok to use bottom side? yes
+-what's the UART thing doing? where does it connect to the pi? It doesn't
+-keep analog ins. No
 are all tssop 16 packages the same
-would demux need decoupling cap
-pwm 3 and 4 are mtr_2a_pwm and 2b
-can only 1 motor drive ic be used 
+-would demux need decoupling cap? placed anyway
 still both pwms to 1 motor (current) or (switch) to A channels / B channels
-new board dimensions
-where will large currents be
+how would the magnet sensor communicate
 
+pwm 3 and 4 are mtr_2a_pwm and 2b
 there's a 12V instead of +12V (12 to 5 converter)
 
 must add 5V or 3.3V to ADC
