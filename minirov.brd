@@ -141,7 +141,7 @@
 <layer number="195" name="mNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="196" name="mValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
 <layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
@@ -5320,6 +5320,9 @@ Please make sure your boards conform to these design rules.
 <vertex x="2.2225" y="9.9695"/>
 <vertex x="5.334" y="9.9695"/>
 <vertex x="5.334" y="8.509"/>
+<vertex x="1.9304" y="8.509"/>
+<vertex x="1.9304" y="6.4008"/>
+<vertex x="-0.889" y="6.4008"/>
 <vertex x="-0.889" y="8.509"/>
 </polygon>
 <via x="3.7465" y="6.9215" extent="1-16" drill="0.35"/>
@@ -5332,11 +5335,6 @@ Please make sure your boards conform to these design rules.
 <wire x1="18.773484375" y1="6.200484375" x2="19.7485" y2="7.1755" width="0.3048" layer="1"/>
 <wire x1="25.631484375" y1="4.3561" x2="25.631484375" y2="6.200484375" width="0.3048" layer="1"/>
 <wire x1="25.631484375" y1="6.200484375" x2="26.6065" y2="7.1755" width="0.3048" layer="1"/>
-<via x="26.924" y="12.954" extent="1-16" drill="0.35"/>
-<wire x1="26.28149375" y1="9.9949" x2="26.28149375" y2="11.68018125" width="0.3048" layer="1"/>
-<wire x1="26.28149375" y1="11.68018125" x2="26.37288125" y2="11.77156875" width="0.3048" layer="1"/>
-<wire x1="26.37288125" y1="12.40288125" x2="26.924" y2="12.954" width="0.3048" layer="1"/>
-<wire x1="26.37288125" y1="11.77156875" x2="26.37288125" y2="12.40288125" width="0.3048" layer="1"/>
 <via x="21.371940625" y="11.529440625" extent="1-16" drill="0.35"/>
 <wire x1="19.42349375" y1="9.9949" x2="19.46390625" y2="10.0353125" width="0.3048" layer="1"/>
 <wire x1="19.96306875" y1="12.1384" x2="20.54993125" y2="12.1384" width="0.3048" layer="1"/>
@@ -5370,6 +5368,8 @@ Please make sure your boards conform to these design rules.
 <contactref element="C1" pad="2"/>
 <wire x1="43.053" y1="20.828" x2="43.053" y2="22.7584" width="0.762" layer="16"/>
 <wire x1="43.053" y1="20.828" x2="40.259" y2="18.034" width="0.762" layer="16"/>
+<wire x1="26.28149375" y1="9.9949" x2="26.28149375" y2="7.50050625" width="0.254" layer="1"/>
+<wire x1="26.28149375" y1="7.50050625" x2="26.6065" y2="7.1755" width="0.254" layer="1"/>
 <wire x1="25.389" y1="15.034" x2="23.4315" y2="13.296" width="0" layer="19" extent="1-16"/>
 <wire x1="19.7485" y1="7.1755" x2="20.2565" y2="8.1035" width="0" layer="19" extent="1-16"/>
 <wire x1="13.7185" y1="10.271" x2="16.9935" y2="13.1445" width="0" layer="19" extent="1-16"/>
@@ -5405,13 +5405,9 @@ Please make sure your boards conform to these design rules.
 <wire x1="13.335" y1="22.352" x2="8.636" y2="17.653" width="0.762" layer="16"/>
 <wire x1="8.636" y1="17.653" x2="6.731" y2="15.748" width="0.762" layer="16"/>
 <wire x1="8.636" y1="17.653" x2="11.6205" y2="14.6685" width="0.762" layer="16"/>
-<wire x1="27.56650625" y1="9.146925" x2="27.24608125" y2="8.8265" width="0.254" layer="1"/>
-<wire x1="25.96691875" y1="8.8265" x2="25.64649375" y2="9.146925" width="0.254" layer="1"/>
 <wire x1="27.581515625" y1="9.9949" x2="27.56650625" y2="9.979890625" width="0.254" layer="1"/>
-<wire x1="27.56650625" y1="9.979890625" x2="27.56650625" y2="9.146925" width="0.254" layer="1"/>
-<wire x1="25.64649375" y1="9.146925" x2="25.64649375" y2="9.979890625" width="0.254" layer="1"/>
+<wire x1="27.56650625" y1="9.979890625" x2="27.56650625" y2="9.06746875" width="0.254" layer="1"/>
 <wire x1="25.64649375" y1="9.979890625" x2="25.631484375" y2="9.9949" width="0.254" layer="1"/>
-<wire x1="27.24608125" y1="8.8265" x2="25.96691875" y2="8.8265" width="0.254" layer="1"/>
 <wire x1="20.70850625" y1="9.019925" x2="20.51508125" y2="8.8265" width="0.254" layer="1"/>
 <wire x1="18.98191875" y1="8.8265" x2="18.78849375" y2="9.019925" width="0.254" layer="1"/>
 <wire x1="20.723515625" y1="9.9949" x2="20.70850625" y2="9.979890625" width="0.254" layer="1"/>
@@ -5436,7 +5432,6 @@ Please make sure your boards conform to these design rules.
 <wire x1="21.8685" y1="6.1595" x2="21.7805" y2="6.2475" width="0.254" layer="16"/>
 <wire x1="29.2345" y1="6.438" x2="28.575" y2="6.438" width="0.254" layer="16"/>
 <wire x1="29.6545" y1="6.858" x2="29.2345" y2="6.438" width="0.254" layer="16"/>
-<wire x1="27.56650625" y1="9.06746875" x2="27.56650625" y2="9.146925" width="0.254" layer="1"/>
 <wire x1="29.6545" y1="6.979475" x2="27.56650625" y2="9.06746875" width="0.254" layer="1"/>
 <wire x1="24.331459375" y1="4.3561" x2="23.8379" y2="4.3561" width="0.254" layer="1"/>
 <wire x1="23.0505" y1="5.1435" x2="23.0505" y2="6.1595" width="0.254" layer="1"/>
@@ -5464,6 +5459,10 @@ Please make sure your boards conform to these design rules.
 <wire x1="40.4495" y1="20.8915" x2="40.513" y2="20.828" width="0.762" layer="16"/>
 <wire x1="40.513" y1="20.828" x2="54.864" y2="6.477" width="0.762" layer="1"/>
 <wire x1="54.864" y1="6.477" x2="54.864" y2="3.81" width="0.762" layer="1"/>
+<wire x1="25.73788125" y1="12.1384" x2="27.0545125" y2="12.1384" width="0.254" layer="1"/>
+<wire x1="27.0545125" y1="12.1384" x2="27.56650625" y2="11.62640625" width="0.254" layer="1"/>
+<wire x1="27.56650625" y1="11.62640625" x2="27.56650625" y2="9.979890625" width="0.254" layer="1"/>
+<wire x1="25.66448125" y1="12.065" x2="25.73788125" y2="12.1384" width="0.254" layer="1"/>
 <wire x1="20.7448" y1="21.034" x2="20.839" y2="21.034" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MTR_1A_PWM">
@@ -5512,16 +5511,16 @@ Please make sure your boards conform to these design rules.
 <wire x1="21.7805" y1="9.8035" x2="20.2565" y2="9.8035" width="0.762" layer="16"/>
 <wire x1="11.8745" y1="2.159" x2="14.732" y2="2.159" width="0.762" layer="16"/>
 <wire x1="26.946515625" y1="10.009909375" x2="26.93150625" y2="9.9949" width="0.254" layer="1"/>
-<via x="27.305" y="11.684" extent="1-16" drill="0.35"/>
+<via x="26.7716" y="11.4554" extent="1-16" drill="0.35"/>
 <wire x1="26.6065" y1="9.8035" x2="26.6065" y2="11.19751875" width="0.762" layer="16"/>
-<wire x1="26.6065" y1="11.19751875" x2="27.09298125" y2="11.684" width="0.762" layer="16"/>
-<wire x1="26.93150625" y1="9.9949" x2="26.93150625" y2="11.31050625" width="0.508" layer="1"/>
-<wire x1="26.93150625" y1="11.31050625" x2="27.305" y2="11.684" width="0.508" layer="1"/>
+<wire x1="26.6065" y1="11.19751875" x2="26.7716" y2="11.36261875" width="0.762" layer="16"/>
+<wire x1="26.93150625" y1="9.9949" x2="26.93150625" y2="11.29549375" width="0.508" layer="1"/>
+<wire x1="26.93150625" y1="11.29549375" x2="26.7716" y2="11.4554" width="0.508" layer="1"/>
 <wire x1="20.07350625" y1="9.9949" x2="20.07350625" y2="11.24700625" width="0.508" layer="1"/>
 <wire x1="20.07350625" y1="11.24700625" x2="20.2565" y2="11.43" width="0.508" layer="1"/>
 <via x="20.2565" y="11.43" extent="1-16" drill="0.35"/>
 <wire x1="20.2565" y1="11.43" x2="20.2565" y2="9.8035" width="0.6604" layer="16"/>
-<wire x1="27.09298125" y1="11.684" x2="27.305" y2="11.684" width="0.762" layer="16"/>
+<wire x1="26.7716" y1="11.4554" x2="26.7716" y2="11.36261875" width="0.762" layer="16"/>
 <wire x1="17.106" y1="9.8035" x2="16.256" y2="8.9535" width="0.762" layer="16"/>
 <wire x1="16.256" y1="8.9535" x2="16.256" y2="3.683" width="0.762" layer="16"/>
 <wire x1="16.256" y1="3.683" x2="14.732" y2="2.159" width="0.762" layer="16"/>
@@ -5606,17 +5605,17 @@ Please make sure your boards conform to these design rules.
 <signal name="MTR_2A_PWM">
 <contactref element="U$2" pad="2B1"/>
 <contactref element="U2" pad="16"/>
-<wire x1="23.439" y1="15.034" x2="23.5988" y2="14.8742" width="0.254" layer="1"/>
+<wire x1="23.439" y1="15.034" x2="23.4464" y2="15.0266" width="0.254" layer="1"/>
 <wire x1="24.331459375" y1="12.088628125" x2="24.331459375" y2="9.9949" width="0.254" layer="1"/>
-<wire x1="23.5988" y1="14.8742" x2="23.5988" y2="12.8212875" width="0.254" layer="1"/>
-<wire x1="23.5988" y1="12.8212875" x2="24.331459375" y2="12.088628125" width="0.254" layer="1"/>
+<wire x1="23.4464" y1="15.0266" x2="23.4464" y2="12.9736875" width="0.254" layer="1"/>
+<wire x1="23.4464" y1="12.9736875" x2="24.331459375" y2="12.088628125" width="0.254" layer="1"/>
 </signal>
 <signal name="MTR_2B_PWM">
 <contactref element="U$2" pad="2B2"/>
 <contactref element="U2" pad="15"/>
-<wire x1="24.089" y1="15.034" x2="24.2488" y2="14.8742" width="0.254" layer="1"/>
-<wire x1="24.2488" y1="14.8742" x2="24.2488" y2="13.027225" width="0.254" layer="1"/>
-<wire x1="24.2488" y1="13.027225" x2="24.981471875" y2="12.294553125" width="0.254" layer="1"/>
+<wire x1="24.089" y1="15.034" x2="24.0964" y2="15.0266" width="0.254" layer="1"/>
+<wire x1="24.0964" y1="15.0266" x2="24.0964" y2="13.179625" width="0.254" layer="1"/>
+<wire x1="24.0964" y1="13.179625" x2="24.981471875" y2="12.294553125" width="0.254" layer="1"/>
 <wire x1="24.981471875" y1="12.294553125" x2="24.981471875" y2="9.9949" width="0.254" layer="1"/>
 </signal>
 <signal name="LED1_PWM">
