@@ -5743,7 +5743,7 @@ Please make sure your boards conform to these design rules.
 <via x="28.7782" y="18.3388" extent="1-16" drill="0.35"/>
 <via x="23.0886" y="8.3058" extent="1-16" drill="0.35"/>
 <via x="22.6568" y="1.0414" extent="1-16" drill="0.35"/>
-<via x="16.4846" y="0.5842" extent="1-16" drill="0.35"/>
+<via x="17.5768" y="-0.1778" extent="1-16" drill="0.35"/>
 <via x="36.2966" y="1.7018" extent="1-16" drill="0.35"/>
 <via x="50.165" y="2.032" extent="1-16" drill="0.35"/>
 <via x="40.3606" y="9.8044" extent="1-16" drill="0.35"/>
@@ -5778,7 +5778,12 @@ Please make sure your boards conform to these design rules.
 <wire x1="24.2062" y1="-10.0584" x2="26.0604" y2="-8.2042" width="0.508" layer="16"/>
 <wire x1="26.0604" y1="-8.2042" x2="26.0604" y2="-5.588" width="0.508" layer="16"/>
 <via x="14.9352" y="-4.7244" extent="1-16" drill="0.35"/>
-<wire x1="19.7485" y1="7.1755" x2="20.2565" y2="8.1035" width="0" layer="19" extent="1-16"/>
+<via x="17.7546" y="7.874" extent="1-16" drill="0.35"/>
+<via x="14.097" y="-0.2032" extent="1-16" drill="0.35"/>
+<via x="14.5288" y="12.3952" extent="1-16" drill="0.35"/>
+<via x="16.6116" y="11.4046" extent="1-16" drill="0.35"/>
+<via x="17.8054" y="6.604" extent="1-16" drill="0.35"/>
+<via x="34.6456" y="7.5438" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="+3V3">
 <contactref element="U$3" pad="3.3V"/>
@@ -5841,8 +5846,6 @@ Please make sure your boards conform to these design rules.
 <wire x1="24.331459375" y1="4.3561" x2="23.8379" y2="4.3561" width="0.254" layer="1"/>
 <wire x1="23.0505" y1="5.1435" x2="23.0505" y2="6.1595" width="0.254" layer="1"/>
 <wire x1="23.8379" y1="4.3561" x2="23.0505" y2="5.1435" width="0.254" layer="1"/>
-<wire x1="17.473459375" y1="7.752434375" x2="18.78849375" y2="9.06746875" width="0.254" layer="1"/>
-<wire x1="17.473459375" y1="4.3561" x2="17.473459375" y2="7.752434375" width="0.254" layer="1"/>
 <wire x1="18.78849375" y1="9.019925" x2="18.78849375" y2="9.06746875" width="0.254" layer="1"/>
 <wire x1="22.5815" y1="11.645" x2="23.3825" y2="11.645" width="0.762" layer="16"/>
 <wire x1="23.3825" y1="11.645" x2="23.4315" y2="11.596" width="0.762" layer="16"/>
@@ -5932,6 +5935,10 @@ Please make sure your boards conform to these design rules.
 <wire x1="23.3172" y1="-13.7414" x2="14.4018" y2="-13.7414" width="0.381" layer="16"/>
 <wire x1="14.4018" y1="-13.7414" x2="14.1224" y2="-13.462" width="0.381" layer="16"/>
 <wire x1="13.8058" y1="-13.1454" x2="13.8312" y2="-13.1708" width="0.762" layer="16"/>
+<wire x1="17.473459375" y1="4.3561" x2="17.473459375" y2="3.068484375" width="0.3048" layer="1"/>
+<via x="15.0486" y="-2.198" extent="1-16" drill="0.35"/>
+<wire x1="15.0486" y1="0.643625" x2="15.0486" y2="-2.198" width="0.3048" layer="1"/>
+<wire x1="17.473459375" y1="3.068484375" x2="15.0486" y2="0.643625" width="0.3048" layer="1"/>
 </signal>
 <signal name="MTR_1A_PWM">
 <contactref element="U1" pad="16"/>
